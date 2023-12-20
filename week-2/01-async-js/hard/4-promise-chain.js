@@ -6,10 +6,17 @@
  */
 
 function wait1(t) {
-
+    return new Promise(resolve=>{
+        let a = 2;
+        resolve(a);
+    })
 }
 
 function wait2(t) {
+    return new Promise(resolve=>{
+        let b = 2;
+        resolve(b);
+    })
 
 }
 

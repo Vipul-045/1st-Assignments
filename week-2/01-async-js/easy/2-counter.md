@@ -1,8 +1,15 @@
-## Counter without setInterval
+<!-- ## Counter without setInterval -->
 
-Without using setInterval, try to code a counter in Javascript. There is a hint at the bottom of the file if you get stuck.
+<!--    . There is a hint at the bottom of the file if you get stuck. -->
 
+let a = 0
+function counter(){
+    a++;
+    console.log(a);
+    setTimeout(counter, 1000)
+}
 
+counter();
 
 
 
@@ -72,5 +79,4 @@ Without using setInterval, try to code a counter in Javascript. There is a hint 
 
 
 
-
-(Hint: setTimeout)
+<!-- (Hint: setTimeout) -->
